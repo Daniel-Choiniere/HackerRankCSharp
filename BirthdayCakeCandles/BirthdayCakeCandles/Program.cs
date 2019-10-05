@@ -47,4 +47,3 @@ class Solution
     }
 }
 
-These are fucking changes   
