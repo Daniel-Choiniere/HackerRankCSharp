@@ -1,16 +1,21 @@
 ﻿using System.IO;
 using System;
+using System.Collections.Generic;
 
 class Solution
 {
     // Complete the birthdayCakeCandles function below.
-    static int birthdayCakeCandles(int[] ar)
+    static int BirthdayCakeCandles(int[] ar)
     {
-        int[] TallestCandles;
+        //Decided to go with a List instead of an array to be able to use List methods
+        List<int> TallestCandles = new List<int>();
 
         int MaxNumber = Math.Max(ar[0], ar[1]);
 
-        TallestCandles.push(MaxNumber);
+        Console.WriteLine(MaxNumber);
+
+        //Now we can use the Add() method instead of the non-existent push to Array I had originally tried
+        TallestCandles.Add(MaxNumber);
 
         foreach (int candle in ar)
         {
@@ -20,15 +25,16 @@ class Solution
             }
             else if (candle == TallestCandles[0])
             {
-                TallestCandles.push(candle);
+                TallestCandles.Add(candle);
             }
         }
 
-        int NunberOfCandles = TallestCandles.Length;
+        //When I loop I always get the original MaxNumber in the TallestCandles array so I just need to -1 to account for that
+        int NumberOfCandles = TallestCandles.Count - 1;
 
-        return NunberOfCandles;
-
+        return NumberOfCandles;
     }
+
 
     static void Main(string[] args)
     {
@@ -38,7 +44,7 @@ class Solution
 
         int[] ar = Array.ConvertAll(Console.ReadLine().Split(' '), arTemp => Convert.ToInt32(arTemp))
         ;
-        int result = birthdayCakeCandles(ar);
+        int result = BirthdayCakeCandles(ar);
 
         textWriter.WriteLine(result);
 
