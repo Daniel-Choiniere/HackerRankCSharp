@@ -1,0 +1,5 @@
+/Users/danchoiniere/careerDevs/careerDevsInner/hackerRankCSharp/BirthdayCakeCandles/BirthdayCakeCandles/bin/Debug/BirthdayCakeCandles.exe
+/Users/danchoiniere/careerDevs/careerDevsInner/hackerRankCSharp/BirthdayCakeCandles/BirthdayCakeCandles/bin/Debug/BirthdayCakeCandles.pdb
+/Users/danchoiniere/careerDevs/careerDevsInner/hackerRankCSharp/BirthdayCakeCandles/BirthdayCakeCandles/obj/Debug/BirthdayCakeCandles.csprojAssemblyReference.cache
+/Users/danchoiniere/careerDevs/careerDevsInner/hackerRankCSharp/BirthdayCakeCandles/BirthdayCakeCandles/obj/Debug/BirthdayCakeCandles.exe
+/Users/danchoiniere/careerDevs/careerDevsInner/hackerRankCSharp/BirthdayCakeCandles/BirthdayCakeCandles/obj/Debug/BirthdayCakeCandles.pdb

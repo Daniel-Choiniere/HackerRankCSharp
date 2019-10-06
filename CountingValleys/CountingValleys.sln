@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountingValleys", "CountingValleys\CountingValleys.csproj", "{74DA6D39-FB4A-4600-BA43-E084045672DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74DA6D39-FB4A-4600-BA43-E084045672DD}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{74DA6D39-FB4A-4600-BA43-E084045672DD}.Debug|anycpu.Build.0 = Debug|anycpu
+		{74DA6D39-FB4A-4600-BA43-E084045672DD}.Release|anycpu.ActiveCfg = Release|anycpu
+		{74DA6D39-FB4A-4600-BA43-E084045672DD}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+EndGlobal
